@@ -3,7 +3,7 @@ jobs:
   build:
     machine:
       image: ubuntu-2004:202101-01
-    parallelism: 50
+    parallelism: 25
     steps:
       - run: 
          name: Downloading
